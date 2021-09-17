@@ -9,3 +9,4 @@ setting tailwindcss
 @tailwind utilities;
 - npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
 - khi custom thì sd câu lệnh npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch
+hello
