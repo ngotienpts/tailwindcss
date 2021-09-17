@@ -1,0 +1,11 @@
+setting tailwindcss
+ - npm init -y
+ - npm install -D tailwindcss postcss autoprefixer vite
+ - npx tailwindcss init -p
+ - vào file package.json tìm "test": "echo \"Error: no test specified\" && exit 1" =>  "dev": "vite"
+ - npm run dev
+ - tạo 1 file trong css có tên là tailwind.css và nhập @tailwind base;
+@tailwind components;
+@tailwind utilities;
+- npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
+- khi custom thì sd câu lệnh npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch
